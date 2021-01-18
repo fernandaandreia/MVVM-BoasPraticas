@@ -1,14 +1,13 @@
 //
-//  Funcionarios_MVVMTests.swift
-//  Funcionarios-MVVMTests
+//  Funcionarios_MVVMTests_Fernanda.swift
+//  Funcionarios-MVVMTests_Fernanda
 //
-//  Created by Fernanda Andreia Nascimento on 15/01/21.
+//  Created by Fernanda Andreia Nascimento on 18/01/21.
 //
 
 import XCTest
-@testable import Funcionarios_MVVM
 
-class Funcionarios_MVVMTests: XCTestCase {
+class Funcionarios_MVVMTests_Fernanda: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -25,7 +24,7 @@ class Funcionarios_MVVMTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1DD50D25B610B4007F8D0C /* EmpregadosTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DD50C25B610B4007F8D0C /* EmpregadosTableViewDataSource.swift */; };
 		AB1DD51225B61FD6007F8D0C /* TesteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DD51125B61FD6007F8D0C /* TesteAPI.swift */; };
+		AB1DD52025B63957007F8D0C /* Funcionarios_MVVMTests_Fernanda.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DD51F25B63957007F8D0C /* Funcionarios_MVVMTests_Fernanda.swift */; };
 		AB49407425B2224F0097499A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49407325B2224F0097499A /* AppDelegate.swift */; };
 		AB49407625B2224F0097499A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49407525B2224F0097499A /* SceneDelegate.swift */; };
 		AB49407825B2224F0097499A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49407725B2224F0097499A /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		AB49407E25B2224F0097499A /* Funcionarios_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB49407C25B2224F0097499A /* Funcionarios_MVVM.xcdatamodeld */; };
 		AB49408025B222520097499A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB49407F25B222520097499A /* Assets.xcassets */; };
 		AB49408325B222520097499A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB49408125B222520097499A /* LaunchScreen.storyboard */; };
-		AB49408E25B222520097499A /* Funcionarios_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49408D25B222520097499A /* Funcionarios_MVVMTests.swift */; };
 		AB49409925B222530097499A /* Funcionarios_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49409825B222530097499A /* Funcionarios_MVVMUITests.swift */; };
 		AB4940B325B2238C0097499A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4940B225B2238C0097499A /* API.swift */; };
 		AB4940C325B225900097499A /* EmpregadosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4940C225B225900097499A /* EmpregadosViewModel.swift */; };
@@ -25,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB1DD52225B63957007F8D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB49406825B2224F0097499A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB49406F25B2224F0097499A;
+			remoteInfo = "Funcionarios-MVVM";
+		};
 		AB49408A25B222520097499A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB49406825B2224F0097499A /* Project object */;
@@ -44,6 +51,9 @@
 /* Begin PBXFileReference section */
 		AB1DD50C25B610B4007F8D0C /* EmpregadosTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpregadosTableViewDataSource.swift; sourceTree = "<group>"; };
 		AB1DD51125B61FD6007F8D0C /* TesteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteAPI.swift; sourceTree = "<group>"; };
+		AB1DD51D25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funcionarios-MVVMTests_Fernanda.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DD51F25B63957007F8D0C /* Funcionarios_MVVMTests_Fernanda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionarios_MVVMTests_Fernanda.swift; sourceTree = "<group>"; };
+		AB1DD52125B63957007F8D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49407025B2224F0097499A /* Funcionarios-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funcionarios-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB49407325B2224F0097499A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB49407525B2224F0097499A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +64,6 @@
 		AB49408225B222520097499A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB49408425B222520097499A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49408925B222520097499A /* Funcionarios-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funcionarios-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB49408D25B222520097499A /* Funcionarios_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionarios_MVVMTests.swift; sourceTree = "<group>"; };
 		AB49408F25B222530097499A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49409425B222530097499A /* Funcionarios-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funcionarios-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB49409825B222530097499A /* Funcionarios_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionarios_MVVMUITests.swift; sourceTree = "<group>"; };
@@ -66,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB1DD51A25B63957007F8D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB49406D25B2224F0097499A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,12 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB1DD51E25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DD51F25B63957007F8D0C /* Funcionarios_MVVMTests_Fernanda.swift */,
+				AB1DD52125B63957007F8D0C /* Info.plist */,
+			);
+			path = "Funcionarios-MVVMTests_Fernanda";
+			sourceTree = "<group>";
+		};
 		AB49406725B2224F0097499A = {
 			isa = PBXGroup;
 			children = (
 				AB49407225B2224F0097499A /* Funcionarios-MVVM */,
 				AB49408C25B222520097499A /* Funcionarios-MVVMTests */,
 				AB49409725B222530097499A /* Funcionarios-MVVMUITests */,
+				AB1DD51E25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda */,
 				AB49407125B2224F0097499A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +132,7 @@
 				AB49407025B2224F0097499A /* Funcionarios-MVVM.app */,
 				AB49408925B222520097499A /* Funcionarios-MVVMTests.xctest */,
 				AB49409425B222530097499A /* Funcionarios-MVVMUITests.xctest */,
+				AB1DD51D25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				AB1DD51125B61FD6007F8D0C /* TesteAPI.swift */,
-				AB49408D25B222520097499A /* Funcionarios_MVVMTests.swift */,
 				AB49408F25B222530097499A /* Info.plist */,
 			);
 			path = "Funcionarios-MVVMTests";
@@ -200,6 +226,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB1DD51C25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DD52425B63957007F8D0C /* Build configuration list for PBXNativeTarget "Funcionarios-MVVMTests_Fernanda" */;
+			buildPhases = (
+				AB1DD51925B63957007F8D0C /* Sources */,
+				AB1DD51A25B63957007F8D0C /* Frameworks */,
+				AB1DD51B25B63957007F8D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1DD52325B63957007F8D0C /* PBXTargetDependency */,
+			);
+			name = "Funcionarios-MVVMTests_Fernanda";
+			productName = "Funcionarios-MVVMTests_Fernanda";
+			productReference = AB1DD51D25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AB49406F25B2224F0097499A /* Funcionarios-MVVM */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB49409D25B222530097499A /* Build configuration list for PBXNativeTarget "Funcionarios-MVVM" */;
@@ -262,6 +306,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					AB1DD51C25B63957007F8D0C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AB49406F25B2224F0097499A;
+					};
 					AB49406F25B2224F0097499A = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -291,11 +339,19 @@
 				AB49406F25B2224F0097499A /* Funcionarios-MVVM */,
 				AB49408825B222520097499A /* Funcionarios-MVVMTests */,
 				AB49409325B222530097499A /* Funcionarios-MVVMUITests */,
+				AB1DD51C25B63957007F8D0C /* Funcionarios-MVVMTests_Fernanda */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB1DD51B25B63957007F8D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB49406E25B2224F0097499A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +379,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB1DD51925B63957007F8D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DD52025B63957007F8D0C /* Funcionarios_MVVMTests_Fernanda.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB49406C25B2224F0097499A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1DD51225B61FD6007F8D0C /* TesteAPI.swift in Sources */,
-				AB49408E25B222520097499A /* Funcionarios_MVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +422,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AB1DD52325B63957007F8D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB49406F25B2224F0097499A /* Funcionarios-MVVM */;
+			targetProxy = AB1DD52225B63957007F8D0C /* PBXContainerItemProxy */;
+		};
 		AB49408B25B222520097499A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB49406F25B2224F0097499A /* Funcionarios-MVVM */;
@@ -391,6 +459,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB1DD52525B63957007F8D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2VXC6VPX;
+				INFOPLIST_FILE = "Funcionarios-MVVMTests_Fernanda/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "everis.Funcionarios-MVVMTests-Fernanda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funcionarios-MVVM.app/Funcionarios-MVVM";
+			};
+			name = Debug;
+		};
+		AB1DD52625B63957007F8D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2VXC6VPX;
+				INFOPLIST_FILE = "Funcionarios-MVVMTests_Fernanda/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "everis.Funcionarios-MVVMTests-Fernanda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funcionarios-MVVM.app/Funcionarios-MVVM";
+			};
+			name = Release;
+		};
 		AB49409B25B222530097499A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -632,6 +740,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB1DD52425B63957007F8D0C /* Build configuration list for PBXNativeTarget "Funcionarios-MVVMTests_Fernanda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DD52525B63957007F8D0C /* Debug */,
+				AB1DD52625B63957007F8D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AB49406B25B2224F0097499A /* Build configuration list for PBXProject "Funcionarios-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
