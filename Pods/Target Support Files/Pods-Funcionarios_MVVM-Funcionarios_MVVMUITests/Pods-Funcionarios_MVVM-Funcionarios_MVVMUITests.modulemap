@@ -1,0 +1,6 @@
+framework module Pods_Funcionarios_MVVM_Funcionarios_MVVMUITests {
+  umbrella header "Pods-Funcionarios_MVVM-Funcionarios_MVVMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

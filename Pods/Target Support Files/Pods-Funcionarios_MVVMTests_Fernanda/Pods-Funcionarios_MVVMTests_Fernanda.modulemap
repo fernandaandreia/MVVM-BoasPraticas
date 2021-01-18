@@ -1,0 +1,6 @@
+framework module Pods_Funcionarios_MVVMTests_Fernanda {
+  umbrella header "Pods-Funcionarios_MVVMTests_Fernanda-umbrella.h"
+
+  export *
+  module * { export * }
+}
