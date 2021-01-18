@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import Funcionarios_MVVM
 
 class Funcionarios_MVVMTests_Fernanda: XCTestCase {
 
@@ -28,5 +29,12 @@ class Funcionarios_MVVMTests_Fernanda: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testServicoAPI(){
+//    let url = URL(string: "https://dummy.restapiexample.com/api/v1/employees")
+    
 
+    }
 }
+
+// EStou com dificuldade de implementar o teste, nao sei que funcao utilizar
